@@ -16,10 +16,17 @@
     </van-cell-group>
     <van-icon name="chat-o" />
     <van-icon name="https://b.yzcdn.cn/vant/icon-demo-1126.png" />
+    <div class="box"></div>
   </div>
 </template>
 <script>
 export default {}
 </script>
 
-<style lang="less"></style>
+<style lang="less">
+.box {
+  width: 300px;
+  height: 288px;
+  background-color: pink;
+}
+</style>
